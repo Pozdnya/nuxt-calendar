@@ -8,6 +8,7 @@ export type VModalAction = 'center' | 'right'
 export interface VModalEmits {
   (e: 'close'): void
 }
+
 export interface VModalProps {
   title: string
   is?: string | Component

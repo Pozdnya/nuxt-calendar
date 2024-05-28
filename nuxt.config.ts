@@ -28,4 +28,8 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => ['iconify-icon'].includes(tag),
     },
   },
+  plugins: [
+    '~/plugins/fullcalendar.ts',
+    '~/plugins/pinia.ts',
+  ],
 })

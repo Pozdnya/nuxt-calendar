@@ -6,8 +6,6 @@ const token = useUserToken()
 
 
 const handleLogin = async () => {
-  console.log('router', router)
-  console.log('route', route)
   token.value = 'logged-in'
 
   if (route?.query?.redirect) {
